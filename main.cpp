@@ -7,8 +7,8 @@ int main() {
     
     string option;
 
-    int a;
-    int b;
+    double a;
+    double b;
     start:
         cout << "Choose what do you want to do: + | - | * | /  " << endl;
         cin >> option; 
@@ -40,27 +40,27 @@ int main() {
     return 0;
 }
 
-int takeNum(int x){
+double takeNum(double x){
     cout << "Provide the number: "; cin >> x; cout << endl;
     return x;
 }
 
-int adding(int x, int y) {
-    int result = x + y;
+double adding(double x, double y) {
+    double result = x + y;
     return result;
 }
 
-int substract(int x, int y) {
-    int result = x - y;
+double substract(double x, double y) {
+    double result = y - x;
     return result;
 }
 
-int multiply(int x, int y) {
-    int result = x * y;
+double multiply(double x, double y) {
+    double result = x * y;
     return result;
 }
 
-int division(int x, int y) {
-    int result = x / y;
+double division(double x, double y) {
+    double result = y / x;
     return result;
 }
